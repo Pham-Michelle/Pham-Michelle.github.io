@@ -4,6 +4,7 @@
 body{
   padding: 1em;
   color:black;
+  font-family: 'Raleway', sans-serif; 
   background-color: white;  
   line-height: 1.5;
 }
@@ -11,7 +12,6 @@ body{
   text-align: center;
 }
 
-/* Navbar */
 .navbar {
   top: 0;
   left: 0;
@@ -28,6 +28,7 @@ body{
   margin: 0 2rem;
   font-size: 1.5rem;
   color: purple;
+  /* font-weight: var(--weight-semibold); */
 }
 
 .navbar .container{
@@ -64,10 +65,9 @@ body{
   text-align: center;
   color: purple;
 }
-/* Animation */
+
 .anim-typewriter{
     position: relative;
-    /* top: 50%;   */
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
