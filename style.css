@@ -1,0 +1,131 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+  padding: 1em;
+  color:black;
+  background-color: white;  
+  line-height: 1.5;
+}
+.tableContents{
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar a:hover {
+  background-color: lightslategray;
+  color: white;
+}
+.navbar .nav-link {
+  /* float: cen; */
+  text-decoration: none;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  color: purple;
+}
+
+.navbar .container{
+  text-align: center;
+
+}
+.align{
+  padding-top: 3rem;
+}
+
+.top-align p{
+  padding: 4rem;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+.text-align p{
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+
+.text-align h2, ul{
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+
+
+.title h1{
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+  color: purple;
+}
+/* Animation */
+.anim-typewriter{
+    position: relative;
+    /* top: 50%;   */
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 16em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: purple}
+  to{border-right-color: transparent;}
+}
+
+.wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.wrapperAws {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+
+.cbsaBadge{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  
+}
+
+.circleImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: purple;
+  margin-top:2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  overflow: hidden;
+}
+.circleImage img{
+  width:100%;
+}
